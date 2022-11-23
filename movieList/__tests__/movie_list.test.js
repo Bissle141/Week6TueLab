@@ -15,10 +15,6 @@ afterAll(async () => {
 })
 
 describe('general checks', () => {
-    it('populates movie list', async() => {
-        await populateMovieList(driver)
-    });
-
     it('removes one movie', async() =>{
         await removeMovie(driver)
     });
